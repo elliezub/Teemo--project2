@@ -1,0 +1,154 @@
+@media (prefers-reduced-motion: no-preference) {
+    * { 
+  scroll-behavior:smooth;  
+    }
+  }
+  
+  * {
+    font-family: Comic Sans MS, tahoma, sans-serif;
+    color: white;
+  }
+  
+  body{
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-image: url(http://puu.sh/j5JRu/bbfa70a9eb.jpg);
+  min-width:500px;
+  }
+  
+  header {
+    max-width: 750px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px auto auto auto;
+  }
+  
+  h1{
+    font-size:37px;
+  }
+  
+  nav {
+  margin-right: 14px;
+  }
+  
+  nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+    list-style:none;
+    
+  }
+  
+  
+  nav > ul > li {
+    color: #dfdfe2;
+    margin: 0 0.2rem;
+    padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+   font-size: min(5vw, 1.2em);
+   background-color: #166A21;
+   border-radius:14px;
+   display: block;
+  }
+  
+  
+  li > a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav > ul > li:hover {
+    background-color: #791A77;
+    cursor: pointer;
+  }
+  
+  
+  main {
+      background-color: rgba(17, 88, 27,0.7);
+      max-width: 750px;
+      min-width:300px;
+      margin: 30px auto 50px auto;
+      padding: 33px;
+      border-radius: 15px;
+  }
+  
+  
+  
+  #img-div {
+    text-align: center;
+  }
+  
+  #image {
+  height:auto;
+  max-width: 100%;
+  border-radius:15px;
+  display: block;
+  }
+  
+  #img-caption {
+    font-size:12px;
+    text-align:left;
+    padding: 2px;
+    padding-left: 7px;
+  }
+  
+  
+  .pinfo {
+    font-size: 16px;
+    text-indent: 1em;
+  }
+  
+  #ability-description {
+    font-size: 14px;
+  }
+  
+  
+  .container {
+  display: flex;
+  align-items:center;
+  background-color:  rgba(121, 26, 119,0.63);
+  border-radius: 10px;
+  min-height: 90px;
+  }
+  
+  .ability-img {
+    height:100%;
+    max-width: 100%;
+    margin:10px 10px 10px 14px;
+  }
+  
+  .text-container  {
+    min-width: 120px;
+  }
+  
+  .abdes {
+  padding: 0 15px;
+  }
+  
+  .type {
+  margin: 5px;
+  }
+  
+  .abname {
+  margin: 5px;
+  }
+  
+  .h2title {
+    padding-top: 30px;
+  }
+  
+  footer {
+    font-size: 50%;
+    max-width:750px;
+  margin: auto;
+  text-align: center;
+  }
+  
+  #tribute-link {
+    text-decoration:none;
+  }
+  
